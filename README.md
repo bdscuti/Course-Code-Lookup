@@ -12,7 +12,9 @@ To use
 <img width="521" height="428" alt="image" src="https://github.com/user-attachments/assets/8ac7ce15-1019-428c-98d0-3c4031ef25d5" />
 
 This project aims to address that.
-First you select your university of interest by clicking on the extension icon. 
+First you select your university of interest by clicking on the extension icon. You can select your university by dropdown or enter into the searchbox and matching universities will be filtered through.
+When your university has been selected, it will set the chrome.sync.storage's selectedUniversity key to your selected university. This allows the selected university to persist after your close the popup and 
+across sessions. It passes a message to content.js which loads the respective JSON to COURSE_DB.
 Then, you highlight some text and a tooltip will pop up showing past semester offerings of the class with its title and webpage.
 This currently only supports UIUC classes but I hope to expand it to more universities using course catalog APIs and allow contributors to modify the database.
 Currently, it uses a scraper that makes API calls, but it there has to be significant delays between calls to prevent being blocked from the catalog. It takes the XML or JSON and creates a massive JSON file
@@ -25,6 +27,7 @@ Allow the user to select from a submenu for the specific subject so that they on
 Create a prereq chain visualizer.
 Futhermore, I hope to add a second mode that scans and add course tooltips to all the matched courses on a page.
 Create a contributor page, so that users can manually import enter information for universities that do not have APIs.
+
 
 
 
