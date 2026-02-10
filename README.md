@@ -1,4 +1,5 @@
-﻿# Course-Extension
+﻿# Course-Code-Lookup Chrome Extension
+
 
 Chrome Extension Link: 
 Oftentimes, people simply list course codes (like ECE 391 - ugggh the documentation for this class...) assuming the reader already knows what they are talking about. 
@@ -84,6 +85,7 @@ Mutation Observer
 
 Change Logs:
 2/9/2026: Added static page text scan and course number selection mode.
+
 
 
 
