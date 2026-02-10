@@ -1,7 +1,7 @@
 ﻿# Course-Extension
 
 Chrome Extension Link: 
-Oftentimes, people simply list course codes (like ECE 391) assuming the reader already knows what they are talking about. 
+Oftentimes, people simply list course codes (like ECE 391 - ugggh the documentation for this class...) assuming the reader already knows what they are talking about. 
 A frustrating experience when browsing is that it requires jumping across multiple sites to find the correct course catalog listing and course description.
 
 This project aims to address that.
@@ -84,6 +84,7 @@ Mutation Observer
 
 Change Logs:
 2/9/2026: Added static page text scan and course number selection mode.
+
 
 
 
